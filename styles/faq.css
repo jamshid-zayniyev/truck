@@ -8,5 +8,11 @@
     width: 100%;
     max-width: 1091px;
     height: 814px;
+    background-color:rgba(46, 40, 40, 0.603);
+    margin: 0 auto;
+}
+
+.faq-questions{
+  
     
 }
