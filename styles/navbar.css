@@ -165,7 +165,9 @@ select{
         align-items: center;
     }
     .victor{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (max-width:560px){
