@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+    width: 1142px;
+    margin: auto;
+}
+aside {
+    width: 571px;
+    height: 800px;
+    background: url(./Group\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.container main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 571px;
+    height: 637px;
+    gap: 20px;
+    background-color: grey;
+    padding: 50px 15px;
+}
+main h3{
+    margin-left: -110px;
+    color: #FFF;
+font-size: 33.044px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+main .input{
+    width: 482px;
+    height: 75px;
+    opacity: 0.3;
+    background: #FFF;
+    padding: 30px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 13px;
+}
+main .input3{
+    width: 482px;
+    height: 190px;
+    opacity: 0.3;
+    background: #FFF;
+    padding-left: 30px;
+    padding-bottom: 110px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 13px;
+}
+main span{
+    display: flex;
+    gap: 15px;
+}
+main span button:first-child{
+    width: 230px;
+    height: 65px;
+    border-radius: 13px;
+    background: #FECE00;
+    color: #1D304A;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    outline: none;
+}
+main span button:last-child{
+    width: 230px;
+    height: 65px;
+    border-radius: 13px;
+    background: #FFF;
+    opacity: 0.5;
+    color: #1D304A;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    outline: none;
+}
