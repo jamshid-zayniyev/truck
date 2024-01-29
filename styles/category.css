@@ -6,6 +6,9 @@
     text-decoration: none;
 }
 /* ------------------------------------Category start--------------------- */
+#category{
+    padding: 50px;
+}
 .category{
     width: 100%;
     display: flex;
@@ -13,18 +16,21 @@
     align-items: center;
 }
 .category-contaner{
-    gap: 30px;
-    width: 1090px;
+    gap: 40px;
+    width: 1200px;
     /* height: 830px; */
     /* flex-shrink: 0; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #888787;
+    /* background: #888787; */
+    background: #4f4f4f;
+
     margin: 0 auto;
     padding: 25px;
     border-radius: 18.281px;
+    box-sizing: border-box;
 }
 .category-contaner h1{
     /* color: rgb(12, 12, 11); */
@@ -35,10 +41,14 @@
     font-weight: 600;
     line-height: normal;
 }
+ 
+.content1 #truck img{
+    width: 600px;
+}
 
 .content1 {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 .content1 #truck4{
     
@@ -46,10 +56,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 408.189px;
-    height: 390.418px;
+    width: 425.31px;
+    height: 425.31px;
     border-radius: 19.912px;
-    background: #616161;
+    /* background: #616161; */
+    background: #636363;
 }
 .content1 #truck4 {
     display: flex;
@@ -65,9 +76,8 @@
     /* gap: 20px; */
 }
 .content2{
-    width: 1090px;
+    width: 1160px;
     display: flex;
-    /* gap: 10px; */
     justify-content: space-evenly;
     align-items: center;
 }
@@ -76,10 +86,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
-    height: 237.911px;
+    width: 330px;
+    height: 257.911px;
     border-radius: 19.912px;
-    background: #616161;
+    /* background: #616161; */
+    background: #636363;
 
     z-index: 10;
 }
@@ -109,6 +120,81 @@ font-weight: 600;
 line-height: normal;
 }
 /* ------------------------------------Category end--------------------- */
+/* ------------------------------------biz haqimizda start--------------------- */
+.biz-haqimizda{
+    width: 1100px;    
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background: #636363;
+    border-radius: 19.912px;
+    padding: 60px;
+    margin: 20px;
+}
+.biz-haqimizda-media{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.biz-haqimizda-media img{
+    width: 400px;
+}
+.biz-haqimizda-media p{
+    max-width: 450px;
+    width: 100%;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 21.776px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.665px; /* 150% */
+    letter-spacing: 2px;
+}
+.biz-haqimizda-contacts{
+    display: flex;
+    gap: 50px;
+    width: 1000px;
+    justify-content: space-around;
+}
+.biz-haqimizda-contacts button{
+    border-radius: 10.129px;
+    opacity: 0.95;
+    background: #FFF;
+    padding: 10px;
+    margin:0 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #182235;
+    font-family: "Craftwork Grotesk";
+    font-size: 15.837px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.biz-haqimizda-icons ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.biz-haqimizda-icons ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4e4e4e; 
+
+}
+.biz-haqimizda-icons ul li a i{
+    color: white;
+}
+
+/* ------------------------------------biz haqimizda end--------------------- */
+
 
 
 /* -------------------media------------------ */
