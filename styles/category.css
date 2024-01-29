@@ -81,7 +81,8 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.content2 #truck1,.content2 #truck2,.content2 #truck3{
+
+.content2 #truck1,.content2 #truck2,.content2 #truck3 ,.content2 #truck5 ,.content2 #Byudjetnie-mashini{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,17 +108,20 @@
     font-weight: 600;
     line-height: normal;
 }
-.content2 #truck2,.content2 #truck3{
+.content2 #truck2,.content2 #truck3, .content2 #truck5 ,.content2 #Byudjetnie-mashini{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #FFF;
-font-family: "Craftwork Grotesk";
-font-size: 22.965px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: "Craftwork Grotesk";
+    font-size: 22.965px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+ .content2 #truck5,.content2 #Byudjetnie-mashini{
+    display: none;
 }
 /* ------------------------------------Category end--------------------- */
 /* ------------------------------------biz haqimizda start--------------------- */
@@ -183,17 +187,26 @@ line-height: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: #4e4e4e; 
 
 }
 .biz-haqimizda-icons ul li a i{
     color: white;
+    font-size: 25px;
 }
 
 /* ------------------------------------biz haqimizda end--------------------- */
+
+/* ------------------------------------chegirmadagi mashinalar start--------------------- */
+.chegirma{
+    position: relative;
+}
+/* ------------------------------------chegirmadagi mashinalar end--------------------- */
+
+
 
 
 
@@ -207,49 +220,93 @@ line-height: normal;
 
     }
     .category-contaner h1{
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 400;
     }
 .content1 #truck4{
     width: 191.38px;
     height: 191.38px;
+    display: none;
 }
 .content1 #truck img{
-    width: 270px;
+    width: 450px;
     gap: 30px;
 
 }
-.content1 #truck4 img,.content2 #truck1 img,.content2 #truck2 img,.content2 #truck3 img{
+.content1 #truck4 img,.content2 #truck1 img,.content2 #truck2 img,.content2 #truck3 img,.content2 #Byudjetnie-mashini img,.content2 #truck5 img{
     width: 40px;
     height: 40px;
 }
-.content2 #truck1,.content2 #truck2,.content2 #truck3{
-    width: 140px;
-    height: 110px;
+.content2 #truck1,.content2 #truck2,.content2 #truck3,.content2 #Byudjetnie-mashini,.content2 #truck5{
+    width: 145px;
+    height: 115px;
+    margin: 20px 0;
+    /* gap: 40px; */
+}
+.content2 #Byudjetnie-mashini{
+    width: 145px;
+    height: 115px;
+    display: flex;
 }
 .content2{
     width: 568px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    /* gap: 20px; */
 }
 .content2 #truck1{
     font-size: 10px;
     font-weight: 100;
     gap: 10px;
-
+    display: none;
 }
 .content1 #truck4{
     font-size: 10px;
     font-weight: 100;
     gap: 10px;
-
 }
-.content2 #truck2,.content2 #truck3{
+.content2 #truck5{
+    display: flex;
+}
+.content2 #truck2,.content2 #truck3 ,.content2 #Byudjetnie-mashini ,.content2 #truck5{
     font-size: 10px;
     font-weight: 100;
     gap: 10px;
 }
+.biz-haqimizda-contacts{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    /* gap: 20px; */
+    width: 390px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.biz-haqimizda{
+    width: 500px; 
+}
+.biz-haqimizda-media{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biz-haqimizda-media img{
+    width: 300px;
+}
+.biz-haqimizda-media p{
+    max-width: 500px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: none;
+    letter-spacing: 1px;
+}
+
 }
 
 
@@ -280,7 +337,7 @@ line-height: normal;
     height: 106.33px;
 }
 .content1 #truck img{
-    width: 150px;
+    width: 250px;
     /* gap: 30px; */
 
 }
@@ -288,12 +345,27 @@ line-height: normal;
     width: 25px;
     height: 25px;
 }
-.content2 #truck1,.content2 #truck2,.content2 #truck3{
+.content2 #truck5 img,.content2 #Byudjetnie-mashini img{
+    width: 35px;
+    height: 35px;
+}
+.content2 #truck2,.content2 #truck3{
     width: 80px;
     height: 60px;
+    margin: 15px;
+    border-radius:10px;
+
+}
+
+.content2 #truck5,.content2 #Byudjetnie-mashini{
+    width: 125px;
+    height: 80px;
+    margin:0 5px ;
+    border-radius:10px;
+
 }
 .content2{
-    width: 300px;
+    width: 280px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -318,6 +390,69 @@ line-height: normal;
     font-weight: none;
     gap: 10px;
     border-radius:10px;
+}
+
+
+.biz-haqimizda-contacts{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+}
+
+
+.biz-haqimizda{
+    gap: 30px;
+    width: 260px; 
+    padding: 20px;
+    border-radius: 10px;
+}
+.biz-haqimizda-media{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biz-haqimizda-media img{
+    width: 200px;
+}
+.biz-haqimizda-media{
+     max-width: 390px;
+    width: 100%;
+}
+.biz-haqimizda-media p{
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: none;
+    letter-spacing: 1px;
+}
+.biz-haqimizda-icons ul {
+    gap: 20px;
+
+
+}
+.biz-haqimizda-icons ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4e4e4e; 
+
+}
+.biz-haqimizda-contacts{
+    gap: 20px;
+}
+.biz-haqimizda-icons ul li a i{
+    color: white;
+    font-size: 15px;
+}
+.biz-haqimizda-contacts button{
+    border-radius: 9px;
+    padding: 8px;
+    margin:0 15px;
+    font-size: 10px;
+    font-weight: 100;
 
 }
 }
