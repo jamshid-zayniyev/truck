@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Craftwork Grotesk";
+}
+
+#navbar{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/main_header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    background-color: rgba( 0, 0, 0, 0.30);
+    backdrop-filter: blur(7.174515247344971px);
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-text ul li a:hover{
+    color: gold;
+}
+
+.nav-text ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-option{
+    display: flex;
+    padding-right: 100px;
+    gap: 30px;
+}
+
+.nav-select{
+    width: 50px;
+    background-color: rgba( 0, 0, 0, 0.30);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    cursor: pointer;
+}
+.nav-phone{
+    background-color: rgba( 0, 0, 0, 0.30);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.nav-phone p{
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.excavator{
+    width: 400px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(7.174515247344971px);
+    display: flex;
+    gap: 20px;
+    left: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.excavator p{
+    color: white;
+    font-size: 18px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.howo{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon p{
+    color: white;
+    font-size: 18px;
+}
+.img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img #img{
+    position: absolute;
+    right: -10px;
+}
+.icone{
+    display: none;
+}
+.victor{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    width: 100px;
+    height: 50px;
+    background-image: url(../images/Vector.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+@media screen and (max-width:760px){
+    .nav{
+        display: none;
+    }
+    .icone{
+        display: block;
+    }
+    .nav-icon{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .howo{
+        padding-top: 120px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .victor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:560px){
+
+}
