@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* ------------------------------------Category start--------------------- */
+.category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-contaner{
+    gap: 30px;
+    width: 1090px;
+    /* height: 830px; */
+    /* flex-shrink: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #888787;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 18.281px;
+}
+.category-contaner h1{
+    /* color: rgb(12, 12, 11); */
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 38.491px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content1 {
+    display: flex;
+    gap: 30px;
+}
+.content1 #truck4{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 408.189px;
+    height: 390.418px;
+    border-radius: 19.912px;
+    background: #616161;
+}
+.content1 #truck4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 22.965px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* gap: 20px; */
+}
+.content2{
+    width: 1090px;
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content2 #truck1,.content2 #truck2,.content2 #truck3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 237.911px;
+    border-radius: 19.912px;
+    background: #616161;
+
+    z-index: 10;
+}
+
+.content2 #truck1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FECE00;
+    font-family: "Craftwork Grotesk";
+    font-size: 22.965px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.content2 #truck2,.content2 #truck3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+font-family: "Craftwork Grotesk";
+font-size: 22.965px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+/* ------------------------------------Category end--------------------- */
+
+
+/* -------------------media------------------ */
+@media screen and (max-width: 768px) {
+    .category-contaner{
+        gap: 20px;
+        width: 568px;
+        margin: 0 auto;
+    border-radius: 15.281px;
+
+    }
+    .category-contaner h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+.content1 #truck4{
+    width: 191.38px;
+    height: 191.38px;
+}
+.content1 #truck img{
+    width: 270px;
+    gap: 30px;
+
+}
+.content1 #truck4 img,.content2 #truck1 img,.content2 #truck2 img,.content2 #truck3 img{
+    width: 40px;
+    height: 40px;
+}
+.content2 #truck1,.content2 #truck2,.content2 #truck3{
+    width: 140px;
+    height: 110px;
+}
+.content2{
+    width: 568px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content2 #truck1{
+    font-size: 10px;
+    font-weight: 100;
+    gap: 10px;
+
+}
+.content1 #truck4{
+    font-size: 10px;
+    font-weight: 100;
+    gap: 10px;
+
+}
+.content2 #truck2,.content2 #truck3{
+    font-size: 10px;
+    font-weight: 100;
+    gap: 10px;
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 430px) {
+    .category-contaner{
+        gap: 10px;
+        width: 310px;
+        margin: 0 auto;
+        padding: 20px;
+    border-radius: 10.281px;
+
+    }
+    .category-contaner h1{
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .content1 {
+        gap: 15px;
+    }
+.content1 #truck4{
+    width: 106.33px;
+    height: 106.33px;
+}
+.content1 #truck img{
+    width: 150px;
+    /* gap: 30px; */
+
+}
+.content1 #truck4 img,.content2 #truck1 img,.content2 #truck2 img,.content2 #truck3 img{
+    width: 25px;
+    height: 25px;
+}
+.content2 #truck1,.content2 #truck2,.content2 #truck3{
+    width: 80px;
+    height: 60px;
+}
+.content2{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content2 #truck1{
+    font-size: 8px;
+    font-weight: none;
+    gap: 10px;
+    border-radius:10px;
+
+}
+
+.content1 #truck4{
+    font-size: 8px;
+    font-weight: none;
+    gap: 10px;
+    border-radius:10px;
+
+}
+.content2 #truck2,.content2 #truck3{
+    font-size: 8px;
+    font-weight: none;
+    gap: 10px;
+    border-radius:10px;
+
+}
+}
+
