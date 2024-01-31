@@ -7,13 +7,11 @@
 }
 /* ------------------------------------Category start--------------------- */
 #category{
-    padding: 50px;
+    padding: 100px 0;
 }
 .category{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 .category-contaner{
     gap: 40px;
@@ -202,8 +200,143 @@
 /* ------------------------------------biz haqimizda end--------------------- */
 
 /* ------------------------------------chegirmadagi mashinalar start--------------------- */
+#Chegirmadagi-mashinalar{
+    padding: 100px 0;
+}
+#Chegirmadagi-mashinalar .category-contaner{
+    padding: 50px 0;
+}
 .chegirma{
     position: relative;
+}
+.Chegirmadagi-mashinalar{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    max-height: 505px;
+    height: 100%;
+    background-color: #636363;
+    border-radius: 25px;
+}
+.delta .chegirma4{
+    position: absolute;
+    top: 250px;
+    right: 267px;
+}
+.delta .chegirma3{
+    position: absolute;
+    top: 270px;
+    right: 110px;
+}
+.delta .chegirma2{
+    position: absolute;
+    top: 270px;
+    right: 0px;
+}
+.speed{
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    bottom: 30px;
+    left: 30px;
+}
+.speed div{
+    display: flex;
+    gap: 5px;
+}
+.chegirma .podrobnee{
+    display: flex;
+    position: absolute;
+    gap: 5px;
+    top: 50px;
+    left: 500px;
+    font-size: 15.075px;
+}
+.chegirma h2{
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    color: #002C4E;
+    font-family: "Craftwork Grotesk";
+    font-size: 33.469px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.type{
+    position: absolute;
+    top: 190px;
+    right: 250px;
+}
+
+.type p{
+    color: white;
+    font-size: 18px;
+}
+
+.cost{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    right: 250px;
+    bottom: 0;
+    gap: 20px;
+}
+
+.cost b{
+    font-size: 30px;
+    color: white;
+}
+
+.cost p{
+    color: white;
+}
+.cost2 h4{
+    position: absolute;
+    bottom: 35px;
+    right: 85px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 12.262px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cost2 img{
+    position: absolute;
+    bottom: 30px;
+    right: 50px
+}
+
+.box{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    background-color:black;
+    border-radius: 50px;
+    top: 100px;
+    right: 90px;
+}
+.box-1{
+    width: 50px;
+    height: 30px;
+    background-color:#FECE00;
+    border-radius: 50px;
+}
+.hybrid p{
+    position: absolute;
+    top: 108px;
+    right: 200px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 12.262px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 /* ------------------------------------chegirmadagi mashinalar end--------------------- */
 
@@ -223,7 +356,7 @@
 
     }
     .category-contaner h1{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 400;
     }
 .content1 #truck4{
@@ -308,6 +441,115 @@
     font-size: 14px;
     font-weight: none;
     letter-spacing: 1px;
+}
+/* ----------------------------------------------------------- */
+.chegirma .chegirma6{
+    width: 300px;
+}
+.Chegirmadagi-mashinalar{
+    max-width: 450px;
+    width: 100%;
+    max-height: 229px;
+    height: 100%;
+    border-radius: 10px;
+}
+.delta .chegirma4{
+    width: 100px;
+    top: 110px;
+    right: 108px;
+
+}
+.delta .chegirma3{
+    width: 70px;
+    top: 130px;
+    right: 48px;
+}
+.delta .chegirma2{
+    width: 50px;
+    top: 130px;
+    right: 0px;
+}
+.chegirma .podrobnee{
+    display: flex;
+    position: absolute;
+    /* gap: 5px; */
+    top: 10px;
+    left: 230px;
+    font-size: 8px;
+    color: black;
+}
+.chegirma h2{
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+.speed{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 10px;
+    left: 10px;
+    font-size: 8px;
+}
+.speed img{
+    width: 25px;
+    height: 25px;
+}
+.box{
+    width: 35px;
+    height: 15px;
+    top: 50px;
+    right: 70px;
+}
+.box-1{
+    width: 20px;
+    height: 15px;
+}
+.hybrid p{
+    top: 52px;
+    right: 110px;
+    font-size: 8px;
+    font-weight: 100;
+}
+.cost{
+    
+    font-size:6px ;
+    right: 30px;
+    top: 165px;
+    gap: 10px;
+}
+.cost p{
+    color: rgb(188, 188, 188);
+
+}
+.cost b{
+    
+    font-size: 10px;
+}
+.type{
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+
+.type p{
+    color: rgb(188, 188, 188);
+    font-size: 8px;
+}
+.cost2 h4{
+    position: absolute;
+    bottom: 18px;
+    right: 55px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 8px;
+    font-weight: 100;
+}
+.cost2 img{
+    width: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 40px
 }
 
 }
@@ -456,7 +698,117 @@
     margin:0 15px;
     font-size: 10px;
     font-weight: 100;
+}
+/* --------------------------------------------------------- */
+.chegirma .chegirma6{
+    width: 190px;
+}
+.Chegirmadagi-mashinalar{
+    max-width: 250px;
+    width: 100%;
+    max-height: 145px;
+    height: 100%;
+    border-radius: 6px;
+}
+.delta .chegirma4{
+    width: 50px;
+    top: 80px;
+    right: 50px;
 
+}
+.delta .chegirma3{
+    width: 35px;
+    top: 90px;
+    right: 22px;
+}
+.delta .chegirma2{
+    width: 25px;
+    top: 90px;
+    right: 0px;
+}
+.chegirma .podrobnee{
+    display: flex;
+    top: 10px;
+    left: 130px;
+    font-size: 6px;
+    color: black;
+}
+.chegirma .podrobnee img{
+    width: 6px;
+    height: 5px;
+}
+.chegirma h2{
+    top: 10px;
+    left: 10px;
+    font-size: 10px;
+}
+.speed{
+    position: absolute;
+    display: flex;
+    gap: 1px;
+    bottom: 8px;
+    left: 5px;
+    font-size: 6px;
+}
+.speed img{
+    width: 15px;
+    height: 15px;
+}
+.box{
+    width: 20px;
+    height: 8px;
+    top: 20px;
+    right: 10px;
+}
+.box-1{
+    width: 12px;
+    height: 8px;
+}
+.hybrid p{
+    top: 20px;
+    right: 34px;
+    font-size: 6px;
+    font-weight: 0;
+}
+.cost{
+    
+    font-size:5px ;
+    right: -60px;
+    top: 85px;
+    gap:1px;
+}
+.cost p{
+    color: rgb(188, 188, 188);
+
+}
+.cost b{
+    
+    font-size: 6px;
+}
+.type{
+    position: absolute;
+    top: 70px;
+    right: 35px;
+}
+
+.type p{
+    color: rgb(188, 188, 188);
+    font-size: 6px;
+}
+.cost2 h4{
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 6px;
+    font-weight: 100;
+}
+.cost2 img{
+    width: 35px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px
 }
 }
 
