@@ -132,16 +132,9 @@ select{
     display: none;
 }
 .victor{
-    position: absolute;
-    bottom: 100px;
-    left: 50px;
-    width: 100px;
-    height: 50px;
-    background-image: url(../images/Vector.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: none;
+    position: absolute;
+    bottom: 150px;
 }
 
 @media screen and (max-width:760px){
@@ -165,9 +158,43 @@ select{
         align-items: center;
     }
     .victor{
+        position: absolute;
+        bottom: 150px;
+        padding: 15px;
+        bottom: 100px;
+        left: 50px;
+        background-image: url(../images/Vector.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .victor p{
+        font-size: 12px;
+    }
+    .excavator{
+        width: 300px;
+    }
+    .excavator p{
+        font-size: 15px;
+    }
+    .icon p{
+        font-size: 15px;
+    }
+    .icon{
+        width: 100px;
+        position: absolute;
+        left: 50px;
+        bottom: -15px;
+    }
+    .icon img{
+        width: 30px;
+    }
+    .icon #img{
+        width: 25px;
+        height: 25px;
     }
 }
 @media screen and (max-width:560px){
