@@ -16,13 +16,10 @@
 .category-contaner{
     gap: 40px;
     width: 1200px;
-    /* height: 830px; */
-    /* flex-shrink: 0; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: #888787; */
     background: #4f4f4f;
 
     margin: 0 auto;
@@ -31,7 +28,6 @@
     box-sizing: border-box;
 }
 .category-contaner h1{
-    /* color: rgb(12, 12, 11); */
     color: #FFF;
     font-family: "Craftwork Grotesk";
     font-size: 38.491px;
@@ -57,7 +53,6 @@
     width: 425.31px;
     height: 425.31px;
     border-radius: 19.912px;
-    /* background: #616161; */
     background: #636363;
 }
 .content1 #truck4 {
@@ -88,10 +83,71 @@
     width: 330px;
     height: 257.911px;
     border-radius: 19.912px;
-    /* background: #616161; */
     background: #636363;
 
     z-index: 10;
+}
+.content2 #truck1 img{
+    transition: 0.5s;
+}
+.content2 #truck1 img{
+    transition: 0.5s;
+}
+.content2 #truck2 img{
+    transition: 0.5s;
+}
+.content2 #truck3 img{
+    transition: 0.5s;
+}
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content1 #truck4:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck1:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck2:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+ .content2 #truck3:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+.content1 #truck4:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content2 #truck2:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content2 #truck3:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
 }
 
 .content2 #truck1 {
@@ -138,7 +194,7 @@
     justify-content: space-evenly;
     gap: 40px;
 }
-.biz-haqimizda-media img{
+.biz-haqimizda-media iframe{
     width: 400px;
 }
 .biz-haqimizda-media p{
@@ -174,6 +230,16 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border: 1px solid #182235;
+}
+.biz-haqimizda-contacts button{
+    transition: 0.3s;
+}
+.biz-haqimizda-contacts button:hover{
+    color: #fff;
+    background-color: #182235;
+    transition: 0.3s;
+    border: 1px solid #fff;
 }
 .biz-haqimizda-icons ul {
     display: flex;
@@ -192,8 +258,16 @@
     background: #4e4e4e; 
 
 }
+.biz-haqimizda-icons ul li:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.biz-haqimizda-icons ul li:hover i{
+    transition: 0.3s;
+    color:  #4e4e4e;
+}
 .biz-haqimizda-icons ul li a i{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 25px;
 }
 
@@ -378,6 +452,79 @@
     height: 115px;
     margin: 20px 0;
     /* gap: 40px; */
+}
+/* ----------------hover--------------------- */
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content1 #truck4:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck1:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck2:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+ .content2 #truck3:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+.content1 #truck4:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck2:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck3:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width:60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #Byudjetnie-mashini:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width:60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck5:hover img{
+        filter: drop-shadow(0px 0px 10px gold);
+        width:60px;
+        height: 60px;
+        transition: 0.5s;
+}
+.content2 #truck5:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+}
+
+}
+.content2 #Byudjetnie-mashini:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
 }
 .content2 #Byudjetnie-mashini{
     width: 145px;
@@ -657,9 +804,11 @@
     justify-content: center;
     align-items: center;
 }
-.biz-haqimizda-media img{
-    width: 200px;
+.biz-haqimizda-media iframe{
+    width: 230px;
+    height: 120px;
 }
+
 .biz-haqimizda-media{
      max-width: 390px;
     width: 100%;
