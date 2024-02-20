@@ -1,0 +1,963 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* ------------------------------------Category start--------------------- */
+#category{
+    padding: 100px 0;
+}
+.category{
+    width: 100%;
+   
+}
+.category-contaner{
+    gap: 40px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4f4f4f;
+
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 18.281px;
+    box-sizing: border-box;
+}
+.category-contaner h1{
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 38.491px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+ 
+.content1 #truck img{
+    width: 600px;
+}
+
+.content1 {
+    display: flex;
+    gap: 40px;
+}
+.content1 #truck4{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 425.31px;
+    height: 425.31px;
+    border-radius: 19.912px;
+    background: #636363;
+}
+.content1 #truck4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 22.965px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* gap: 20px; */
+}
+.content2{
+    width: 1160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content2 #truck1,.content2 #truck2,.content2 #truck3 ,.content2 #truck5 ,.content2 #Byudjetnie-mashini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    height: 257.911px;
+    border-radius: 19.912px;
+    background: #636363;
+
+    z-index: 10;
+}
+.content2 #truck1 img{
+    transition: 0.5s;
+}
+.content2 #truck1 img{
+    transition: 0.5s;
+}
+.content2 #truck2 img{
+    transition: 0.5s;
+}
+.content2 #truck3 img{
+    transition: 0.5s;
+}
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content1 #truck4:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck1:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck2:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+ .content2 #truck3:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+.content1 #truck4:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content2 #truck2:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.content2 #truck3:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+
+.content2 #truck1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FECE00;
+    font-family: "Craftwork Grotesk";
+    font-size: 22.965px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.content2 #truck2,.content2 #truck3, .content2 #truck5 ,.content2 #Byudjetnie-mashini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 22.965px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+ .content2 #truck5,.content2 #Byudjetnie-mashini{
+    display: none;
+}
+/* ------------------------------------Category end--------------------- */
+/* ------------------------------------biz haqimizda start--------------------- */
+.biz-haqimizda{
+    width: 1100px;    
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background: #636363;
+    border-radius: 19.912px;
+    padding: 60px;
+    margin: 20px;
+}
+.biz-haqimizda-media{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.biz-haqimizda-media iframe{
+    width: 400px;
+}
+.biz-haqimizda-media p{
+    max-width: 450px;
+    width: 100%;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 21.776px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.665px; /* 150% */
+    letter-spacing: 2px;
+}
+.biz-haqimizda-contacts{
+    display: flex;
+    gap: 50px;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-around;
+}
+.biz-haqimizda-contacts button{
+    border-radius: 10.129px;
+    opacity: 0.95;
+    background: #FFF;
+    padding: 10px;
+    margin:0 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #182235;
+    font-family: "Craftwork Grotesk";
+    font-size: 15.837px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #182235;
+}
+.biz-haqimizda-contacts button{
+    transition: 0.3s;
+}
+.biz-haqimizda-contacts button:hover{
+    color: #fff;
+    background-color: #182235;
+    transition: 0.3s;
+    border: 1px solid #fff;
+}
+.biz-haqimizda-icons ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.biz-haqimizda-icons ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #4e4e4e; 
+
+}
+.biz-haqimizda-icons ul li:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.biz-haqimizda-icons ul li:hover i{
+    transition: 0.3s;
+    color:  #4e4e4e;
+}
+.biz-haqimizda-icons ul li a i{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+/* ------------------------------------biz haqimizda end--------------------- */
+
+/* ------------------------------------chegirmadagi mashinalar start--------------------- */
+#Chegirmadagi-mashinalar{
+    padding: 100px 0;
+}
+#Chegirmadagi-mashinalar .category-contaner{
+    padding: 50px 0;
+}
+.chegirma{
+    position: relative;
+}
+.Chegirmadagi-mashinalar{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    max-height: 505px;
+    height: 100%;
+    background-color: #636363;
+    border-radius: 25px;
+}
+.delta .chegirma4{
+    position: absolute;
+    top: 250px;
+    right: 267px;
+}
+.delta .chegirma3{
+    position: absolute;
+    top: 270px;
+    right: 110px;
+}
+.delta .chegirma2{
+    position: absolute;
+    top: 270px;
+    right: 0px;
+}
+.speed{
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    bottom: 30px;
+    left: 30px;
+}
+.speed div{
+    display: flex;
+    gap: 5px;
+}
+.chegirma .podrobnee{
+    display: flex;
+    position: absolute;
+    gap: 5px;
+    top: 50px;
+    left: 500px;
+    font-size: 15.075px;
+}
+.chegirma h2{
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    color: #002C4E;
+    font-family: "Craftwork Grotesk";
+    font-size: 33.469px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.type{
+    position: absolute;
+    top: 190px;
+    right: 250px;
+}
+
+.type p{
+    color: white;
+    font-size: 18px;
+}
+
+.cost{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    right: 250px;
+    bottom: 0;
+    gap: 20px;
+}
+
+.cost b{
+    font-size: 30px;
+    color: white;
+}
+
+.cost p{
+    color: white;
+}
+.cost2 h4{
+    position: absolute;
+    bottom: 35px;
+    right: 85px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 12.262px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cost2 img{
+    position: absolute;
+    bottom: 30px;
+    right: 50px
+}
+
+.box{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    background-color:black;
+    border-radius: 50px;
+    top: 100px;
+    right: 90px;
+}
+.box-1{
+    width: 50px;
+    height: 30px;
+    background-color:#FECE00;
+    border-radius: 50px;
+}
+.hybrid p{
+    position: absolute;
+    top: 108px;
+    right: 200px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 12.262px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ------------------------------------chegirmadagi mashinalar end--------------------- */
+
+
+
+
+
+/* -------------------media------------------ */
+@media screen and (max-width: 768px) {
+    .category-contaner{
+        gap: 20px;
+        max-width: 568px;
+
+        width: 100%;
+        margin: 0 auto;
+    border-radius: 15.281px;
+
+    }
+    .category-contaner h1{
+        font-size: 20px;
+        font-weight: 400;
+    }
+.content1 #truck4{
+    width: 191.38px;
+    height: 191.38px;
+    display: none;
+}
+.content1 #truck img{
+    width: 450px;
+    gap: 30px;
+
+}
+.content1 #truck4 img,.content2 #truck1 img,.content2 #truck2 img,.content2 #truck3 img,.content2 #Byudjetnie-mashini img,.content2 #truck5 img{
+    width: 40px;
+    height: 40px;
+}
+.content2 #truck1,.content2 #truck2,.content2 #truck3,.content2 #Byudjetnie-mashini,.content2 #truck5{
+    width: 145px;
+    height: 115px;
+    margin: 20px 0;
+    /* gap: 40px; */
+}
+/* ----------------hover--------------------- */
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content1 #truck4:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck1:hover{
+   filter: drop-shadow(0px 0px 20px black);
+   transition: 0.5s;
+
+}
+.content2 #truck2:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+ .content2 #truck3:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+ 
+ }
+.content1 #truck4:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck1:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck2:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck3:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width:60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #Byudjetnie-mashini:hover img{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 0));
+    width:60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.content2 #truck5:hover img{
+        filter: drop-shadow(0px 0px 10px gold);
+        width:60px;
+        height: 60px;
+        transition: 0.5s;
+}
+.content2 #truck5:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+}
+
+}
+.content2 #Byudjetnie-mashini:hover{
+    filter: drop-shadow(0px 0px 20px black);
+    transition: 0.5s;
+}
+.content2 #Byudjetnie-mashini{
+    width: 145px;
+    height: 115px;
+    display: flex;
+}
+.content2{
+    width: 568px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}
+.content2 #truck1{
+    font-size: 10px;
+    font-weight: 100;
+    gap: 10px;
+    display: none;
+}
+.content1 #truck4{
+    font-size: 10px;
+    font-weight: 100;
+    gap: 10px;
+}
+.content2 #truck5{
+    display: flex;
+}
+.content2 #truck2,.content2 #truck3 ,.content2 #Byudjetnie-mashini ,.content2 #truck5{
+    font-size: 10px;
+    font-weight: 100;
+    gap: 10px;
+}
+.biz-haqimizda-contacts{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    /* gap: 20px; */
+    width: 390px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.biz-haqimizda{
+    width: 500px; 
+}
+.biz-haqimizda-media{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biz-haqimizda-media img{
+    width: 300px;
+}
+.biz-haqimizda-media p{
+    max-width: 500px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: none;
+    letter-spacing: 1px;
+}
+/* ----------------------------------------------------------- */
+.chegirma .chegirma6{
+    width: 300px;
+}
+.Chegirmadagi-mashinalar{
+    max-width: 450px;
+    width: 100%;
+    max-height: 229px;
+    height: 100%;
+    border-radius: 10px;
+}
+.delta .chegirma4{
+    width: 100px;
+    top: 110px;
+    right: 108px;
+
+}
+.delta .chegirma3{
+    width: 70px;
+    top: 130px;
+    right: 48px;
+}
+.delta .chegirma2{
+    width: 50px;
+    top: 130px;
+    right: 0px;
+}
+.chegirma .podrobnee{
+    display: flex;
+    position: absolute;
+    /* gap: 5px; */
+    top: 10px;
+    left: 230px;
+    font-size: 8px;
+    color: black;
+}
+.chegirma h2{
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+.speed{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 10px;
+    left: 10px;
+    font-size: 8px;
+}
+.speed img{
+    width: 25px;
+    height: 25px;
+}
+.box{
+    width: 35px;
+    height: 15px;
+    top: 50px;
+    right: 70px;
+}
+.box-1{
+    width: 20px;
+    height: 15px;
+}
+.hybrid p{
+    top: 52px;
+    right: 110px;
+    font-size: 8px;
+    font-weight: 100;
+}
+.cost{
+    
+    font-size:6px ;
+    right: 30px;
+    top: 165px;
+    gap: 10px;
+}
+.cost p{
+    color: rgb(188, 188, 188);
+
+}
+.cost b{
+    
+    font-size: 10px;
+}
+.type{
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+
+.type p{
+    color: rgb(188, 188, 188);
+    font-size: 8px;
+}
+.cost2 h4{
+    position: absolute;
+    bottom: 18px;
+    right: 55px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 8px;
+    font-weight: 100;
+}
+.cost2 img{
+    width: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 40px
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .category-contaner{
+        gap: 10px;
+        width: 310px;
+        margin: 0 auto;
+        padding: 20px;
+    border-radius: 10.281px;
+
+    }
+    .category-contaner h1{
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .content1 {
+        gap: 15px;
+    }
+.content1 #truck4{
+    width: 106.33px;
+    height: 106.33px;
+}
+.content1 #truck img{
+    width: 250px;
+    /* gap: 30px; */
+
+}
+.content1 #truck4 img,.content2 #truck1 img,.content2 #truck2 img,.content2 #truck3 img{
+    width: 25px;
+    height: 25px;
+}
+.content2 #truck5 img,.content2 #Byudjetnie-mashini img{
+    width: 35px;
+    height: 35px;
+}
+.content2 #truck2,.content2 #truck3{
+    width: 80px;
+    height: 60px;
+    margin: 15px;
+    border-radius:10px;
+
+}
+
+.content2 #truck5,.content2 #Byudjetnie-mashini{
+    width: 125px;
+    height: 80px;
+    margin:0 5px ;
+    border-radius:10px;
+
+}
+.content2{
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content2 #truck1{
+    font-size: 8px;
+    font-weight: none;
+    gap: 10px;
+    border-radius:10px;
+
+}
+
+.content1 #truck4{
+    font-size: 8px;
+    font-weight: none;
+    gap: 10px;
+    border-radius:10px;
+
+}
+.content2 #truck2,.content2 #truck3{
+    font-size: 8px;
+    font-weight: none;
+    gap: 10px;
+    border-radius:10px;
+}
+
+
+.biz-haqimizda-contacts{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+}
+
+
+.biz-haqimizda{
+    gap: 30px;
+    width: 260px; 
+    padding: 20px;
+    border-radius: 10px;
+}
+.biz-haqimizda-media{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biz-haqimizda-media iframe{
+    width: 230px;
+    height: 120px;
+}
+
+.biz-haqimizda-media{
+     max-width: 390px;
+    width: 100%;
+}
+.biz-haqimizda-media p{
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: none;
+    letter-spacing: 1px;
+}
+.biz-haqimizda-icons ul {
+    gap: 20px;
+
+
+}
+.biz-haqimizda-icons ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4e4e4e; 
+
+}
+.biz-haqimizda-contacts{
+    gap: 20px;
+}
+.biz-haqimizda-icons ul li a i{
+    color: white;
+    font-size: 15px;
+}
+.biz-haqimizda-contacts button{
+    border-radius: 9px;
+    padding: 8px;
+    margin:0 15px;
+    font-size: 10px;
+    font-weight: 100;
+}
+/* --------------------------------------------------------- */
+.chegirma .chegirma6{
+    width: 190px;
+}
+.Chegirmadagi-mashinalar{
+    max-width: 250px;
+    width: 100%;
+    max-height: 145px;
+    height: 100%;
+    border-radius: 6px;
+}
+.delta .chegirma4{
+    width: 50px;
+    top: 80px;
+    right: 50px;
+
+}
+.delta .chegirma3{
+    width: 35px;
+    top: 90px;
+    right: 22px;
+}
+.delta .chegirma2{
+    width: 25px;
+    top: 90px;
+    right: 0px;
+}
+.chegirma .podrobnee{
+    display: flex;
+    top: 10px;
+    left: 130px;
+    font-size: 6px;
+    color: black;
+}
+.chegirma .podrobnee img{
+    width: 6px;
+    height: 5px;
+}
+.chegirma h2{
+    top: 10px;
+    left: 10px;
+    font-size: 10px;
+}
+.speed{
+    position: absolute;
+    display: flex;
+    gap: 1px;
+    bottom: 8px;
+    left: 5px;
+    font-size: 6px;
+}
+.speed img{
+    width: 15px;
+    height: 15px;
+}
+.box{
+    width: 20px;
+    height: 8px;
+    top: 20px;
+    right: 10px;
+}
+.box-1{
+    width: 12px;
+    height: 8px;
+}
+.hybrid p{
+    top: 20px;
+    right: 34px;
+    font-size: 6px;
+    font-weight: 0;
+}
+.cost{
+    
+    font-size:5px ;
+    right: -60px;
+    top: 85px;
+    gap:1px;
+}
+.cost p{
+    color: rgb(188, 188, 188);
+
+}
+.cost b{
+    
+    font-size: 6px;
+}
+.type{
+    position: absolute;
+    top: 70px;
+    right: 35px;
+}
+
+.type p{
+    color: rgb(188, 188, 188);
+    font-size: 6px;
+}
+.cost2 h4{
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    color: #FFF;
+    font-family: "Craftwork Grotesk";
+    font-size: 6px;
+    font-weight: 100;
+}
+.cost2 img{
+    width: 35px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px
+}
+}
+
